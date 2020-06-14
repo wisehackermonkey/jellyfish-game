@@ -88,11 +88,15 @@ function draw() {
 
 function Jellyfish(){
     this.pos = createVector(0,0);
-
+    this.angle = 0
     this.render = ()=>{
-        arc(this.pos.x, this.pos.y, 80, 80, 180, 0, PIE); 
-        line(this.pos.x, this.pos.y, this.pos.x+10, this.pos.y+60);
-        line(this.pos.x, this.pos.y, this.pos.x-10, this.pos.y+60);
+        push()
+        translate(this.pos.x, this.pos.y);
+        rotate(0+random(-4,4))
+        arc(0, 0, 80, 80, 180, 0, PIE); 
+        line(0, 0, 0+10, 0+60);
+        line(0, 0, 0-10, 0+60);
+        pop()
     }
 }
 
