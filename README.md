@@ -6,6 +6,11 @@ github.com/wisehackermonkey
 oranbusiness@gmail.com
 20200613
 ```
+# TODO
+- ~~interaction
+- tweening library
+- tenticals rendering
+- ik tenticals, or sine wave version
 
 <!-- ### install -->
 <!-- ### Build -->
@@ -13,4 +18,9 @@ oranbusiness@gmail.com
 ```
 python -m http.server 
 ```
+
+# Gif dev log
+#### v1
+![](test.gif)
 <!-- # Links -->
+
