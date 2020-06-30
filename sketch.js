@@ -45,14 +45,11 @@ var jelly;
 var block;
 var tentical;
 
-let noise_val = 0;
 
 let tentacles = [];
 
 step = 0
 
-var block;
-var tentical;
 
 let noise_val = 0;
 function setup() {
